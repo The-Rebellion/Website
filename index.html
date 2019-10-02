@@ -1,129 +1,143 @@
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <title>HC TECH BYTE</title>
-  <style>
-    header{
-      background: url(img/4.jpg);
-      background-size: cover;
-      background-position: center;
-      min-height: 1000px;
-    }
-    @media screen and (max-width: 670px){
-      header{
-        min-height: 500px;
-      }
-    }
-    .section{
-      padding-top: 4vw;
-      padding-bottom: 4vw;
-    }
-    .tabs .indicator{
-      background-color: #1a237e;
-    }
-    .tabs .tab a:focus, .tabs .tab a:focus.active{
-      background: transparent;
-    }
-  </style>
+	<!-- Title -->
+	<title>The Rebellion | BPIT</title>
+	<!-- META Tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="hacking,technical,society,bpit" />
+	<meta name="keywords" content="andriod, development, web, web development, hacking, machine, machine learning" />
+	<!-- Favicon -->
+  	<link rel='shortcut icon' type='image/x-icon' href="images/favicon.ico"/>
+	<!-- local CSS -->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/custom.css" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	 crossorigin="anonymous">
 </head>
-<body>
 
-  <!-- navbar -->
-  <header>
-    <nav class="nav-wrapper transparent">
-      <div class="container">
-        <a href="#" class="brand-logo">HCTECHBYTE</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Photo's</a></li>
-          <li><a href="#">Top Articles </a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
-            <i class="fab fa-instagram"></i>
-          </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
-            <i class="fab fa-facebook"></i>
-          </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Twitter">
-            <i class="fab fa-twitter"></i>
-          </a></li>
-        </ul>
-        <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#">Photo's</a></li>
-          <li><a href="#">Top Articles</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-<!--content goes here-->
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<a class="logo" href="index.html">The Rebellion</a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#footer">About us</a></li>
+			<li><a href="register.html">Registration</a></li>
+		</ul>
+	</nav>
+
+	<!-- Banner -->
+	<section id="banner">
+		<img src="https://wallpaperplay.com/w/download/76112" alt="fsociety" height="auto"></img>
+	</section>
+
+	<!-- Highlights -->
+	<section class="wrapper custom-wrapper">
+		<div class="inner">
+			<header class="special">
+				<h1>The Rebelion</h1>
+				<h2>May The Force Will Always Be With You.</h2>
+				<p>
+					The Rebellion is an open source technical society formed on October 1st 2019, The main motive of the society is gather a bunch of indiviuals with extra-ordinary skills in there respective feilds, to see if they could create something new.
+			</header>
+			<div class="highlights">
+				<!-- About us section -->
+				<section>
+					<div class="content">
+						<header>
+							<a href="#footer" class="icon fa-vcard-o"><span class="label">Icon</span></a>
+							<h3>About Us</h3>
+						</header>
+						<p>We are group of innovater from different backgrounds, working togther on bring balance to the force.</p>
+					</div>
+				</section>
+				<!-- Events section -->
+				<section>
+					<div class="content">
+						<header>
+							<a target="_blank" href="events.html" class="icon fas fa-flag"><span class="label">Icon</span></a>
+							<h3>Events</h3>
+						</header>
+						<p>
+							We organize meetups twice a month and various online events throughout the year that facilates society members to improve on their current skills and innovate.
+						</p>
+						<p>
+							Our first meetup will shecduled this month, you can <a href="/register.html">register</a> for it.
+						</p>
+					</div>
+				</section>
+				<!-- Call For Paper section -->
+				<section>
+					<div class="content">
+						<header>
+							<a target="_blank" href="cfp.html" class="icon fas fa-file"><span class="label">Icon</span></a>
+							<h3>Be part of The Rebellion</h3>
+							<p>If anyones wants to contribute towards the society by being a mentor, can send us their ideas of how you wll be useful.</p>
+							<p>Please email us your ideas @therebellion-8285021@protonmail.com </p>
+						</header>
+						<p></p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<!-- Discord link -->
+	<section id="cta" class="wrapper">
+		<a target="_blank" href="#" class="discord-link">
+			<div class="inner">
+				<i class="fab fa-discord" style="font-size: 60px; margin-bottom: 20px;"></i>
+				<h2>Join Us @ Discord!</h2>
+			</div>
+		</a>
+	</section>
 
 
- <!-- parallax -->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="img/5.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="content">
+				<section>
+					<h4>Core Team</h4>
+					<ul class="alt team">
+						<li><a target="_blank" href="">duckie</a></li>
+					</ul>
+				</section>
+				<section>
+					<h4>Contact Us</h4>
+					<ul class="plain">
+						<li><a target="_blank" href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+						<li><a target="_blank" href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+						<li><a target="_blank" href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+						<li><a target="_blank" href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+						<li><a target="_blank" href="#"><i class="icon fa-linkedin">&nbsp;</i>Linked
+								In</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</footer>
 
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-    <!-- parallax -->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="img/6.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
-   <!-- footer -->
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5>About Me</h5>
-	  <p>This is an attempt to help people sort out their daily tech headaches.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright grey darken-4">
-      <div class="container center-align">@made by duckie</div>
-    </div>
-  </footer>
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function(){
-
-      $('.sidenav').sidenav();
-      $('.materialboxed').materialbox();
-      $('.parallax').parallax();
-      $('.tabs').tabs();
-      $('.datepicker').datepicker({
-        disableWeekends: true,
-        yearRange: 1
-      });
-      $('.tooltipped').tooltip();
-
-    });
-  </script>
 </body>
+
 </html>
