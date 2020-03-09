@@ -3,8 +3,10 @@
 <html>
 
 <script type="text/javascript">
-		var viewMode = getCookie("view-mode");
-		viewport.setAttribute('content', 'width=1024');
+		var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		var element = document.getElementById('text');
+		if (isMobile) {
+  			alert('View this site in Desktop View for best results');
 </script>
 <head>
 	<!-- Title -->
